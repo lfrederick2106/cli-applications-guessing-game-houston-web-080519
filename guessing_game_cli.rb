@@ -10,3 +10,5 @@ def run_guessing_game
     print "Sorry! The computer guessed #{random_number}."
   end
 end
+
+p run_guessing_game
