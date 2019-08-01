@@ -11,7 +11,6 @@ def run_guessing_game
   if "exit"
     puts "Goodbye!"
   end
-  
 end
 
 p run_guessing_game
