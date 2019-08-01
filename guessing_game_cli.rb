@@ -11,4 +11,4 @@ def run_guessing_game
   end
 end
 
-p run_guessing_game
+puts run_guessing_game
