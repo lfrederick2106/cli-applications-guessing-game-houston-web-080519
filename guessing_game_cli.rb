@@ -1,15 +1,13 @@
 def run_guessing_game
   random_number = rand(1..6)
   puts "Guess your number!"
-  user_response = gets
+  user_response = gets.chomp
   if user_response == random_number
     puts "You guessed the correct number!"
-  end
-  if user_response != random_number && user_response.is_a?(Integer)
-    puts "Sorry! The computer guessed #{random_number}."
-  end
-  if user_response == "exit"
+  elsif user_response == "exit"
     puts "Goodbye!"
+  else
+    puts "Sorry! The computer guessed #{random_number}."
   end
 end
 
